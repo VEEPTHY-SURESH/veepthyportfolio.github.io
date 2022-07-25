@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.heading{
+    padding-top: 3rem;
+    color: #f7f7f7;
+}
+.fa-solid{
+    color: yellow;
+    
+}
+.c2{
+    margin-top: 10rem;
+}
+span{
+    color: orange;
+}
+input{
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+}
+#btn{
+    outline: none;
+}
+#output{
+    
+    color: yellow;
+    margin-top: 3rem;
+}

@@ -1,0 +1,124 @@
+#title{
+    background-color: rgb(230, 230, 86) ;
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family:"Audiowide", sans-serif;
+    font-size: 3.5rem;
+}
+/*navbar*/
+.navbar{
+    padding-bottom: 4.5rem;
+    color: #8f8f8f;
+}
+.tindog{
+    font-family: 'Ubuntu';
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+/* buttons*/
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+h2{
+    font-family: 'Audiowide',sans-serif;
+}
+h3{
+    font-family: 'Ubuntu';
+}
+p{
+    color: #8f8f8f;
+}
+/*title image*/
+.title-image{
+    height: 500px;
+    width: auto;
+    transform: rotate(25deg);
+}
+/* features section*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonial section*/
+#testimonials{
+    text-align: center;
+    background-color: rgb(217, 217, 125);
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color:  rgb(217, 217, 125);
+    padding-bottom: 5%;   
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/*pricing section*/
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+/*cta section*/
+.cta-heading{
+    font-family: 'Audiowide',sans-serif;
+    text-align: center;
+}
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    padding: 3% 0;
+}
+.contact{
+    margin: 20px 10px;
+}
+.contact:hover{
+    color: rgb(94, 89, 89);
+}
+/*media*/
+@media(max-width:1200px){
+    .title-image{
+        margin-top: 3rem;
+        height: 270px;
+    }
+}
