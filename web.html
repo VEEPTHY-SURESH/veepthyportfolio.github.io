@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!--meta-->
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <!--google fonts-->
         <!-- font family-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,16 +22,17 @@
         <!--responsive css-->
         <link rel="stylesheet" href="cssfile/responsive.css">
     </head>
-    <body>
+    <body class="htmlbody">
         <!--navbar start-->
         <div>
             <nav id="navbar" class="navbar navbar-expand-sm">
+                
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html"><img id="navlogo" src="main-images/weblogo.jpeg" alt="my web logo"></a>
                     <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                         <i class="fa-solid fa-burger"></i>
                     </div>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link" href="web.html">HOME</a>
@@ -60,31 +64,31 @@
           </button>
 
         <!--container 1-->
-            <div class="container c1 text-center" >
-                <div>
-                    <img id="mylogo" src="main-images/myemoji.webp" alt="my web logo">
-                </div>
-                <div>
-                    <p class="hey"><strong>HEY THERE !</strong></p>
-                    <p class="nametag"><strong>It's VEEPTHY SURESH </strong></p>
-                </div>
-                <div class="autoblock">
-                    <h1 class="auto-type">I'm <span class="auto-type1"></span></h1>
-                </div>
-                <div><button class="btn btn-secondary"><a href="#about">ABOUT<i class="fa-solid fa-arrow-down"></i></a></button></div>
-                <div class="footer-links">
-                    <a href="https://www.instagram.com/veepthy_suresh/"><i   class="fa-brands fa-instagram "></i></a>
-                    <a href="https://www.linkedin.com/in/veepthy-suresh-453126202/"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://wa.me/message/JTUEG6TTCEOXO1"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://github.com/VEEPTHY-SURESH"><i class="fa-brands fa-github"></i></a>
-                </div>
-                    
-                    
+        <div class="divtag1">
+            <div class="container c1" >
+                
+                    <div>
+                        <img id="mylogo" src="main-images/myemoji.webp" alt="my web logo">
+                    </div>
+                    <div>
+                        <p class="nametag"><strong>It's VEEPTHY SURESH </strong></p>
+                    </div>
+                    <div>
+                        <h1 class="auto-type">I'm <span class="auto-type1"></span></h1>
+                    </div>
+                    <div><button class="btn btn-secondary"><a href="#about">ABOUT<i class="fa-solid fa-arrow-down"></i></a></button></div>
+                    <div class="footer-links">
+                        <a href="https://www.instagram.com/veepthy_suresh/"><i   class="fa-brands fa-instagram "></i></a>
+                        <a href="https://www.linkedin.com/in/veepthy-suresh-453126202/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/message/JTUEG6TTCEOXO1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/VEEPTHY-SURESH"><i class="fa-brands fa-github"></i></a>
+                    </div>
             </div>
+        </div>
         <!--about-->
         <div id="about">
             <div class="container c2">
-                <h1><span><i class="fa-solid fa-circle-user"></i></span><span class="s1">ABOUT</span><span class="s2">ME</span></h1>
+                <h1 data-aos="fade-down" data-aos-duration="1200"><span><i class="fa-solid fa-circle-user"></i></span><span class="s1">ABOUT</span><span class="s2">ME</span></h1>
                 <div data-aos="fade-down" data-aos-duration="1200" class="row justify-content-between">
                     <div data-aos="fade-down" data-aos-duration="1200" class="mypic-block col-lg-5">
                         <div data-aos="fade-down" data-aos-duration="1200" class="img-bg">
@@ -118,13 +122,13 @@
                 <h1 >PORTFOLIO</h1>
                 <div class="port-block">
                     <div class="row" data-aos="fade-down" data-aos-duration="1200">
-                        <a class="col-lg-4" href="my-ports/dicegame/dicee.html"><i class="port-items fa-solid fa-dice-d6 fa-3x"><p>DICE</p><p>GAME</p></i></a>
-                        <a class="col-lg-4" href="my-ports/drumweb/drum.html"><i class="port-items fa-solid fa-drum fa-3x"><p>DRUM</p><p>KIT</p></i></a>
-                        <a class="col-lg-4" href="my-ports/dogweb/dog.html"><i class="port-items fa-solid fa-dog fa-3x"><p>iSmart</p><p>Dog</p></i></a>
+                        <a data-aos="fade-down" data-aos-duration="1300" class="col-lg-4" href="my-ports/dicegame/dicee.html"><i class="port-items fa-solid fa-dice-d6 fa-3x"><p>DICE</p><p>GAME</p></i></a>
+                        <a data-aos="fade-down" data-aos-duration="1300" class="col-lg-4" href="my-ports/drumweb/drum.html"><i class="port-items fa-solid fa-drum fa-3x"><p>DRUM</p><p>KIT</p></i></a>
+                        <a data-aos="fade-down" data-aos-duration="1300" class="col-lg-4" href="my-ports/dogweb/dog.html"><i class="port-items fa-solid fa-dog fa-3x"><p>iSmart</p><p>Dog</p></i></a>
                     </div>
                     <div class="row" data-aos="fade-down" data-aos-duration="1500">
-                        <a class="col-lg-4" href="my-ports/simongame/simon.html"><i class="port-items fa-solid fa-square fa-3x"><p>SIMON</p><p>GAME</p></i></a>
-                        <a class="col-lg-4" href="my-ports/BMI/index.html"><img id="bmi" src="main-images/bmi-img.webp" alt=""></a>
+                        <a data-aos="fade-down" data-aos-duration="1300" class="col-lg-4" href="my-ports/simongame/simon.html"><i class="port-items fa-solid fa-square fa-3x"><p>SIMON</p><p>GAME</p></i></a>
+                        <a data-aos="fade-down" data-aos-duration="1300" class="col-lg-4" href="my-ports/BMI/index.html"><img id="bmi" src="main-images/bmi-img.webp" alt=""></a>
                     </div>
                 </div>
                 
